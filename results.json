@@ -1,0 +1,53 @@
+{
+  "total_yearly_precipitation": 11180,
+  "relative_monthly_precipitation": [
+    {
+      "month": "2010-01",
+      "relative montly percipitation": 0.15143112701252237
+    },
+    {
+      "month": "2010-02",
+      "relative montly percipitation": 0.06529516994633273
+    },
+    {
+      "month": "2010-03",
+      "relative montly percipitation": 0.07781753130590341
+    },
+    {
+      "month": "2010-04",
+      "relative montly percipitation": 0.06726296958855098
+    },
+    {
+      "month": "2010-05",
+      "relative montly percipitation": 0.08264758497316636
+    },
+    {
+      "month": "2010-06",
+      "relative montly percipitation": 0.053756708407871195
+    },
+    {
+      "month": "2010-07",
+      "relative montly percipitation": 0.00483005366726297
+    },
+    {
+      "month": "2010-08",
+      "relative montly percipitation": 0.009302325581395347
+    },
+    {
+      "month": "2010-09",
+      "relative montly percipitation": 0.089087656529517
+    },
+    {
+      "month": "2010-10",
+      "relative montly percipitation": 0.08121645796064399
+    },
+    {
+      "month": "2010-11",
+      "relative montly percipitation": 0.10661896243291591
+    },
+    {
+      "month": "2010-12",
+      "relative montly percipitation": 0.2107334525939177
+    }
+  ]
+}

@@ -27,18 +27,16 @@ for measurement in seattle_measurements:
 
 # Convert defaultdict to a list of dictionaries
 results = [{'month': key, 'total_monthly_precipitation': value} for key, value in total_monthly_precipitation.items()]
-    #print(results)
+#print(results)
 
 # Save results to results.json
 with open('results.json', 'w') as resultfile:
     json.dump(results, resultfile, indent=2)
 
-
-
 # Calculate total yearly precipitation
 total_yearly_precipitation = sum(measurement['value'] 
                                  for measurement in seattle_measurements)
-    #print(total_yearly_precipitation)
+#print(total_yearly_precipitation)
 
 
 
@@ -55,6 +53,14 @@ results_relative = {
     'total_yearly_precipitation': total_yearly_precipitation,
     'relative_monthly_precipitation': [{'month': key, 'relative montly percipitation': value} for key, value in relative_monthly_precipitation.items()]
 }
+#print(results_relative)
 
-print(results_relative)
+# Save results_relative to results.json
+with open('results.json', 'w') as resultfile:
+    json.dump(results_relative, resultfile, indent=2)
+
+
+
+
+
 
