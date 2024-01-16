@@ -1,53 +1,216 @@
 {
-  "total_yearly_precipitation": 11180,
-  "relative_monthly_precipitation": [
-    {
-      "month": "2010-01",
-      "relative montly percipitation": 0.15143112701252237
-    },
-    {
-      "month": "2010-02",
-      "relative montly percipitation": 0.06529516994633273
-    },
-    {
-      "month": "2010-03",
-      "relative montly percipitation": 0.07781753130590341
-    },
-    {
-      "month": "2010-04",
-      "relative montly percipitation": 0.06726296958855098
-    },
-    {
-      "month": "2010-05",
-      "relative montly percipitation": 0.08264758497316636
-    },
-    {
-      "month": "2010-06",
-      "relative montly percipitation": 0.053756708407871195
-    },
-    {
-      "month": "2010-07",
-      "relative montly percipitation": 0.00483005366726297
-    },
-    {
-      "month": "2010-08",
-      "relative montly percipitation": 0.009302325581395347
-    },
-    {
-      "month": "2010-09",
-      "relative montly percipitation": 0.089087656529517
-    },
-    {
-      "month": "2010-10",
-      "relative montly percipitation": 0.08121645796064399
-    },
-    {
-      "month": "2010-11",
-      "relative montly percipitation": 0.10661896243291591
-    },
-    {
-      "month": "2010-12",
-      "relative montly percipitation": 0.2107334525939177
-    }
-  ]
+  "total_yearly_precipitation_by_station": {
+    "GHCND:USW00093814": 9321,
+    "GHCND:US1WAKG0038": 11180,
+    "GHCND:USC00513317": 5126,
+    "GHCND:US1CASD0032": 5771
+  },
+  "relative_monthly_precipitation_by_station": {
+    "GHCND:USW00093814": [
+      {
+        "month": "2010-01",
+        "relative_monthly_precipitation": 0.054929728569895926
+      },
+      {
+        "month": "2010-02",
+        "relative_monthly_precipitation": 0.06308336015448986
+      },
+      {
+        "month": "2010-03",
+        "relative_monthly_precipitation": 0.09537603261452633
+      },
+      {
+        "month": "2010-04",
+        "relative_monthly_precipitation": 0.0526767514215213
+      },
+      {
+        "month": "2010-05",
+        "relative_monthly_precipitation": 0.15438257697671923
+      },
+      {
+        "month": "2010-06",
+        "relative_monthly_precipitation": 0.18925008046346958
+      },
+      {
+        "month": "2010-07",
+        "relative_monthly_precipitation": 0.06587276043342989
+      },
+      {
+        "month": "2010-08",
+        "relative_monthly_precipitation": 0.03111254157279262
+      },
+      {
+        "month": "2010-09",
+        "relative_monthly_precipitation": 0.015556270786396308
+      },
+      {
+        "month": "2010-10",
+        "relative_monthly_precipitation": 0.040446304044630406
+      },
+      {
+        "month": "2010-11",
+        "relative_monthly_precipitation": 0.18903551121124343
+      },
+      {
+        "month": "2010-12",
+        "relative_monthly_precipitation": 0.0482780817508851
+      }
+    ],
+    "GHCND:US1WAKG0038": [
+      {
+        "month": "2010-01",
+        "relative_monthly_precipitation": 0.15143112701252237
+      },
+      {
+        "month": "2010-02",
+        "relative_monthly_precipitation": 0.06529516994633273
+      },
+      {
+        "month": "2010-03",
+        "relative_monthly_precipitation": 0.07781753130590341
+      },
+      {
+        "month": "2010-04",
+        "relative_monthly_precipitation": 0.06726296958855098
+      },
+      {
+        "month": "2010-05",
+        "relative_monthly_precipitation": 0.08264758497316636
+      },
+      {
+        "month": "2010-06",
+        "relative_monthly_precipitation": 0.053756708407871195
+      },
+      {
+        "month": "2010-07",
+        "relative_monthly_precipitation": 0.00483005366726297
+      },
+      {
+        "month": "2010-08",
+        "relative_monthly_precipitation": 0.009302325581395347
+      },
+      {
+        "month": "2010-09",
+        "relative_monthly_precipitation": 0.089087656529517
+      },
+      {
+        "month": "2010-10",
+        "relative_monthly_precipitation": 0.08121645796064399
+      },
+      {
+        "month": "2010-11",
+        "relative_monthly_precipitation": 0.10661896243291591
+      },
+      {
+        "month": "2010-12",
+        "relative_monthly_precipitation": 0.2107334525939177
+      }
+    ],
+    "GHCND:USC00513317": [
+      {
+        "month": "2010-01",
+        "relative_monthly_precipitation": 0.0706203667577058
+      },
+      {
+        "month": "2010-02",
+        "relative_monthly_precipitation": 0.03921186110027312
+      },
+      {
+        "month": "2010-03",
+        "relative_monthly_precipitation": 0.16796722590714008
+      },
+      {
+        "month": "2010-04",
+        "relative_monthly_precipitation": 0.10788138899726882
+      },
+      {
+        "month": "2010-05",
+        "relative_monthly_precipitation": 0.017362465860319934
+      },
+      {
+        "month": "2010-06",
+        "relative_monthly_precipitation": 0.028092079594225515
+      },
+      {
+        "month": "2010-07",
+        "relative_monthly_precipitation": 0.05384315255559892
+      },
+      {
+        "month": "2010-08",
+        "relative_monthly_precipitation": 0.05052672649239174
+      },
+      {
+        "month": "2010-09",
+        "relative_monthly_precipitation": 0.05267264923917285
+      },
+      {
+        "month": "2010-10",
+        "relative_monthly_precipitation": 0.08427623878267654
+      },
+      {
+        "month": "2010-11",
+        "relative_monthly_precipitation": 0.1650409676160749
+      },
+      {
+        "month": "2010-12",
+        "relative_monthly_precipitation": 0.16250487709715178
+      }
+    ],
+    "GHCND:US1CASD0032": [
+      {
+        "month": "2010-01",
+        "relative_monthly_precipitation": 0.22924969675966037
+      },
+      {
+        "month": "2010-02",
+        "relative_monthly_precipitation": 0.1478080055449662
+      },
+      {
+        "month": "2010-03",
+        "relative_monthly_precipitation": 0.0249523479466297
+      },
+      {
+        "month": "2010-04",
+        "relative_monthly_precipitation": 0.08334777334950616
+      },
+      {
+        "month": "2010-05",
+        "relative_monthly_precipitation": 0.0008664009703690869
+      },
+      {
+        "month": "2010-06",
+        "relative_monthly_precipitation": 0.0005198405822214521
+      },
+      {
+        "month": "2010-07",
+        "relative_monthly_precipitation": 0.005891526598509791
+      },
+      {
+        "month": "2010-08",
+        "relative_monthly_precipitation": 0.0
+      },
+      {
+        "month": "2010-09",
+        "relative_monthly_precipitation": 0.002425922717033443
+      },
+      {
+        "month": "2010-10",
+        "relative_monthly_precipitation": 0.10691387974354528
+      },
+      {
+        "month": "2010-11",
+        "relative_monthly_precipitation": 0.06827239646508403
+      },
+      {
+        "month": "2010-12",
+        "relative_monthly_precipitation": 0.3297522093224744
+      }
+    ]
+  },
+  "relative_yearly_precipitation_by_station": {
+    "GHCND:USW00093814": 29.68660424230843,
+    "GHCND:US1WAKG0038": 35.607363526339256,
+    "GHCND:USC00513317": 16.325880629339448,
+    "GHCND:US1CASD0032": 18.380151602012866
+  }
 }
